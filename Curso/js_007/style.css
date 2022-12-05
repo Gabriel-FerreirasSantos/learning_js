@@ -105,6 +105,69 @@ h2{
     margin-bottom: 50px;
 }
 
+#background-ir2{
+    margin-top: 10px;
+    display: flex;
+    background-color: #282a36;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+}
+#part1{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+#part1{
+    color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}#part1:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+#part2{
+    color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+}#part2:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+
+#part3{
+    color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+}#part3:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
 
 
 

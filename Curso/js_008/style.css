@@ -1,0 +1,202 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #44475a;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+#estrutura{
+    background: #3537498c;
+    margin: auto;
+    width: 600px;
+}
+
+
+#cabeçalho{
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#titulo-cabeçalho{
+    font-family: verdana;
+}
+#corpo-cabeçalho{
+    width: auto;
+    font-family: Arial;
+    display: flex;
+}
+
+#linha{
+    border-color: dimgray;
+    border-radius: 10px;
+}
+
+
+
+#corpo{
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#titulo-corpo{
+    margin-left: 10px;
+    font-family: verdana;
+}
+#corpo-do-corpo{
+    width: auto;
+    font-family: Arial;
+}
+#rodape-corpo{
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#rodape-corpo > h2{
+    font-family: Verdana;
+}
+#rodape-corpo > main{
+    width: auto;
+    font-size: 19px;
+    font-family: Arial;
+}
+
+
+
+#cabeçalho-rodape{
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+#cabeçalho-rodape > h2{
+    font-family: Verdana;
+}
+#cabeçalho-rodape > main{
+    width: auto;
+    font-family: Arial;
+}
+#cabeçalho-rodape > p{
+    font-family: verdana;
+}
+
+#corpo-rodape{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+#corpo-rodape > h2{
+    font-family: verdana;
+    
+}
+#corpo-rodape > main{
+    width: auto;
+    font-family: Arial;
+}
+
+#espaço{
+    margin-bottom: 50px;
+}
+
+#background-ir2{
+    margin-top: 10px;
+    display: flex;
+    background-color: #282a36;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+}
+#part1{
+    color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+}#part1:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+#part2{
+    color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+}#part2:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+#part3{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+#part3{
+    color: white;
+    width: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}#part3:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+
+
+
+
+/*fazer o estilo de codigo*/
+#background-dracula{
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    background-color: #282a36;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: arial;
+}
+#rosa{
+    color: #ff79c6;
+}
+#roxo{
+    color: #bd93f9;
+}
+#verde{
+    color: #50fa7b;
+}
+p{
+    color: white;
+}
+li{
+    color: white;
+}
