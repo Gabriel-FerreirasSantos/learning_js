@@ -4,122 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Variaveis</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            background-color: black;
-        }
-        header{
-            background-color: aliceblue;
-            width: 400px;
-            margin: auto;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        h1{
-            color: black;
-            text-align: center;
-            padding-bottom: 4px;
-        }
-        p{
-            color: black;
-            text-align: center;
-            font-family: verdana;
-        }
-        h2{
-            padding-top: 20px;
-        }
-        ul{
-            padding-left: 15px;
-        }
-        li{
-            font-size: 15px;
-            font-family: verdana;
-        }dt{
-            font-size: 15px;
-            font-family: verdana;
-        }
-    </style>
 </head>
 <body>
+
+    <nav id="painel">
+        <p><a href="" style="color: black;">Site portfólio</a></p>
+    </nav>
     
-    <header>
-        <h1>aula 002</h1>
-        <p> Variaveis</p>
-        <hr>
-        <main>
-            <h2>Regras:</h2>
-            <ul>
-                <li>Podem começar com <b>letra</b>, <b>$</b> ou <b>_</b></li>
-                <li>Não podem começar com <b>números</b></li>
-                <li>É possível usar <b>letras</b> ou <b>números</b></li>
-                <li>É possível usar <b>acentos</b> e <b>símbolos</b></li>
-                <li>Não podem conter <b>espaços</b></li>
-                <li>Não podem ser <b>palavras reservadas</b></li>
-            </ul>
-        </main>
-
-        <hr>
-
-        <footer>
-
+    <div id="estrutura">
+        <hr id="linha">
+        <header>
+            <h1>aula 002</h1>
+            <p> Variaveis</p>
+            <hr>
+            <main>
+                <h2>Regras:</h2>
+                <ul>
+                    <li>Podem começar com <b>letra</b>, <b>$</b> ou <b>_</b></li>
+                    <li>Não podem começar com <b>números</b></li>
+                    <li>É possível usar <b>letras</b> ou <b>números</b></li>
+                    <li>É possível usar <b>acentos</b> e <b>símbolos</b></li>
+                    <li>Não podem conter <b>espaços</b></li>
+                    <li>Não podem ser <b>palavras reservadas</b></li>
+                </ul>
+            </main>
+            <hr>
+            <footer>
+                <h2>Data Types:</h2>
+                <main>
+                    <dl>
+                        <dt>Number</dt>
+        
+                        <dt>String</dt>
+                        <dt>Boolean</dt>
+                        <dt>Null</dt>
+                        <dt>Undefined</dt>
+                        <dt>Object</dt>
+                        <dt>Function</dt>
+                    </dl>
+                </main>
+            </footer>
+        </header>
+        <main id="corpo">
             <h2>Data Types:</h2>
             <main>
                 <dl>
                     <dt>Number</dt>
-                    
+        
                     <dt>String</dt>
-
                     <dt>Boolean</dt>
-
                     <dt>Null</dt>
-
                     <dt>Undefined</dt>
-
                     <dt>Object</dt>
-
                     <dt>Function</dt>
                 </dl>
             </main>
-        </footer>
-    </header>
-
-
-    <main id="corpo">
-        <h2>Data Types:</h2>
-        <main>
-            <dl>
-                <dt>Number</dt>
-                
-                <dt>String</dt>
-
-                <dt>Boolean</dt>
-
-                <dt>Null</dt>
-
-                <dt>Undefined</dt>
-
-                <dt>Object</dt>
-
-                <dt>Function</dt>
-            </dl>
         </main>
-    </main>
+
+        <hr id="linha">
+
+        <main style="margin-top: 30px; margin-bottom: 30px;">
+            <h3>
+                Essa foi a aula de hoje
+            </h3>
+        </main>
+
+        <div id="background-ir2">
+
+            <span>
+                <p id="part1" style="cursor: pointer;">1</p>
+            </span>
+
+            <span id="part2">
+                <p><a href="../js_005/aula_002.html">2</a></p>
+            </span>
+
+            <span id="part2">
+                <p><a href="../js_006/aula_003.html">3</a></p>
+            </span>
+
+            <span id="part2">
+                <p><a href="../js_005/aula_002.html">></a></p>
+            </span>
+
+        </div>
+
+    </div>
 
 
-    <script>
-        window.alert("Olá, esse site é para treinar variaveis");
-        window.confirm("Você esta pronto?");
-        window.prompt("Vamos treinar no terminal do Node.js");
-
-    </script>
-
-
-    <!--Typeof-->
-
+    
 </body>
 </html>

@@ -10,12 +10,42 @@ h1{
     text-align: center;
     color: white;
     padding-bottom: 10px;
+    font-family: verdana;
 }
 h2{
     padding-bottom: 10px;
     text-align: center;
     color: white;
+    font-family: verdana;
 }
+h3{
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: verdana;
+}
+p{
+    color: white;
+    font-family: arial;
+}
+#linha{
+    border-color: dimgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#painel{
+    background-color: #212330;
+    padding: 15px;
+}#painel>p{
+    background-color: #74e0f8;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+
 #estrutura{
     background: #3537498c;
     margin: auto;
@@ -23,87 +53,12 @@ h2{
 }
 
 
-#cabeçalho{
-    margin-left: 10px;
-    padding-top: 10px;
-    margin-bottom: 15px;
-}
-#titulo-cabeçalho{
-    font-family: verdana;
-}
-#corpo-cabeçalho{
-    width: auto;
-    font-family: Arial;
-    display: flex;
-}
-
-#linha{
-    border-color: dimgray;
-    border-radius: 10px;
-}
 
 
 
-#corpo{
-    padding-top: 10px;
-    margin-bottom: 15px;
-}
-#titulo-corpo{
-    margin-left: 10px;
-    font-family: verdana;
-}
-#corpo-do-corpo{
-    width: auto;
-    font-family: Arial;
-}
-#rodape-corpo{
-    padding-top: 10px;
-    margin-bottom: 15px;
-}
-#rodape-corpo > h2{
-    font-family: Verdana;
-}
-#rodape-corpo > main{
-    width: auto;
-    font-size: 19px;
-    font-family: Arial;
-}
 
 
 
-#cabeçalho-rodape{
-    margin-left: 10px;
-    padding-top: 10px;
-    margin-bottom: 25px;
-}
-#cabeçalho-rodape > h2{
-    font-family: Verdana;
-}
-#cabeçalho-rodape > main{
-    width: auto;
-    font-family: Arial;
-}
-#cabeçalho-rodape > p{
-    font-family: verdana;
-}
-
-#corpo-rodape{
-    margin-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 25px;
-}
-#corpo-rodape > h2{
-    font-family: verdana;
-    
-}
-#corpo-rodape > main{
-    width: auto;
-    font-family: Arial;
-}
-
-#espaço{
-    margin-bottom: 50px;
-}
 
 #background-ir2{
     margin-top: 10px;
@@ -111,7 +66,7 @@ h2{
     background-color: #282a36;
     padding: 10px;
     border-radius: 10px;
-    width: 100px;
+    width: 120px;
     margin: auto;
 }
 #part1{
@@ -123,9 +78,16 @@ h2{
     text-align: center;
     margin-right: 3px;
     margin-left: 3px;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+
 }#part1:hover{
     background-color: rgb(0, 0, 0);
+
 }
+
+
 #part2{
     color: white;
     width: 15px;
@@ -139,6 +101,8 @@ h2{
     background-color: rgb(0, 0, 0);
 
 }
+
+
 a{
     text-decoration: none;
     color: white;
@@ -148,10 +112,9 @@ a{
 
 
 
-
-
 /*fazer o estilo de codigo*/
 #background-dracula{
+    margin-left: 10px;
     border-radius: 5px;
     padding: 10px;
     width: 300px;
@@ -171,9 +134,6 @@ a{
 #verde{
     color: #50fa7b;
 }
-p{
-    color: white;
-}
-li{
-    color: white;
+#amarelo{
+    color: #f1fa8c;
 }
