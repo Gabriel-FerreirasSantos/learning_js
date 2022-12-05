@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Operadores</title>
+    <title>Parte 2 - Operadores</title>
 </head>
 <body>
     <header id="estrutura">
         <hr id="linha">
         <header id="cabeçalho">
             <header id="titulo-cabeçalho">
-                <h1>Operadores:</h1>
+                <h1>Parte 2 Operadores:</h1>
             </header>
     
             <main id="corpo-cabeçalho">
@@ -30,85 +30,165 @@
     
         <main id="corpo">
             <header id="titulo-corpo">
-                <h2>Operadores Aritméticos</h2>
+                <h2>Relacionais</h2>
     
                 <main id="corpo-do-corpo">
                     <div id="background-dracula">
                         <p>
-                            <span id="verde">Adição</span> 
-                            <span id="rosa">= </span>
-                            <span id="rosa"><strong>+</strong></span>
+                            <span id="verde">Maior</span> 
+                            <span id="rosa"> > </span>
                         </p>
 
                         <p>
-                            <span id="verde">Subtração </span>
-                            <span id="rosa">=</span> 
-                            <span id="rosa"><strong>-</strong></span>
+                            <span id="verde">Menor</span>
+                            <span id="rosa"> < </span> 
                         </p>
 
                         <p>
-                            <span id="verde">Multiplicação</span> 
-                            <span id="rosa">=</span> 
-                            <span id="rosa"><strong>*</strong></span>
+                            <span id="verde">Maior ou igual</span> 
+                            <span id="rosa"> >= </span> 
                         </p>
 
                         <p>
-                            <span id="verde">Divisão</span> 
-                            <span id="rosa">=</span> 
-                            <span id="rosa"><strong>/</strong></span>
+                            <span id="verde">Menor ou igual</span> 
+                            <span id="rosa"> <= </span> 
                         </p>
 
                         <p>
-                            <span id="verde">Resto da divisão inteira</span> 
-                            <span id="rosa">=</span> 
-                            <span id="rosa"><strong>%</strong></span>
+                            <span id="verde">Igual</span> 
+                            <span id="rosa"> == </span> 
                         </p>
 
                         <p>
-                            <span id="verde">Potenciação</span> 
-                            <span id="rosa">=</span> 
-                            <span id="rosa"><strong>**</strong></span>
+                            <span id="verde">Diferente</span> 
+                            <span id="rosa"> != </span> 
                         </p> 
 
                     </div>
                 </main>
     
                 <footer id="rodape-corpo">
-                    <h2>Precedência de operadores</h2>
+                    <h2>Exemplo</h2>
     
                     <main>
                         
                             <div id="background-dracula">
 
                                 <p>
-                                    <span id="roxo">1°</span>
-                                    <span id="rosa"><strong>()</strong></span>
+                                    <span id="roxo">5</span>
+                                    <span id="rosa">></span>
+                                    <span id="roxo">2</span>
+                                    <span id="rosa">=</span>
+                                    <span id="roxo">True</span>
                                 </p>
                                 
                                 <p>
-                                    <span id="roxo">2°</span>
-                                    <span id="rosa"><strong>**</strong></span>
+                                    <span id="roxo">5</span>
+                                    <span id="rosa"><</span>
+                                    <span id="roxo">2</span>
+                                    <span id="rosa">=</span>
+                                    <span id="roxo">False</span>
                                 </p>
                                 
                                 <p>
-                                    <span id="roxo">3°</span>
-                                    <span id="rosa"><strong>*</strong></span>,
-                                    <span id="rosa"><strong>/</strong></span>,
-                                    <span id="rosa"><strong>%</strong></span>
+                                    <span id="roxo">5</span>
+                                    <span id="rosa">>=</span>
+                                    <span id="roxo">2</span>
+                                    <span id="rosa">=</span>
+                                    <span id="roxo">True</span>
                                     
                                 </p>
                                 
                                 <p>
-                                    <span id="roxo">4°</span>
-                                    <span id="rosa"><strong>+ <span style="color: white;">e</span> -</strong></span>
+                                    <span id="roxo">5</span>
+                                    <span id="rosa"><=</span>
+                                    <span id="roxo">2</span>
+                                    <span id="rosa">=</span>
+                                    <span id="roxo">False</span>
                                 </p>
 
+                                <p>
+                                    <span id="roxo">5</span>
+                                    <span id="rosa">==</span>
+                                    <span id="roxo">2</span>
+                                    <span id="rosa">=</span>
+                                    <span id="roxo">False</span>
+                                </p>
+
+                                <p>
+                                    <span id="roxo">5</span>
+                                    <span id="rosa">!=</span>
+                                    <span id="roxo">2</span>
+                                    <span id="rosa">=</span>
+                                    <span id="roxo">True</span>
+                                </p>
                             </div>
                         
                     </main>
-    
+                    <p><strong>Observação:</strong> Temos que ter cuidado com a Identidade de tal coisa. Exemplo:</p>
+                    <div id="background-dracula">
+
+                        <p>
+                            <span id="roxo">5</span>
+                            <span id="rosa">==</span>
+                            <span id="roxo">5</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">True</span>;
+                        </p>
+                        <p>
+                            <span id="roxo">5</span>
+                            <span id="rosa">==</span>
+                            <span id="roxo">"5"</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">True</span>;
+                        </p>
+                    </div>
+                    <p>É confuso ja que são de tipos diferentes, porém, o javascript olha a grandeza e não type</p>
+                
+                    <hr id="linha" style="margin-top: 15px; margin-bottom: 15px;">
+
+                    <p style="font-size: 30px;">Operador de identidade restrita:</p>
+                    <p>Porém tem um operador de identidade que é restrito a isso.</p>
+                    <p>Usamos o <i>===</i>.Exemplo:</p>
+                    <p style="margin-top: 15px;">Em vez de usar assim:</p>
+                    <div id="background-dracula">
+
+                        <p>
+                            <span id="roxo">5</span>
+                            <span id="rosa">==</span>
+                            <span id="roxo">"5"</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">True</span>;
+                        </p>
+                
+                    </div> 
+                    <p>Usamos assim:</p>
+                    <div id="background-dracula">
+
+                        <p>
+                            <span id="roxo">5</span>
+                            <span id="rosa">===</span>
+                            <span id="roxo">"5"</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">False</span>;
+                        </p>
+                
+                    </div> 
+                    <p>Agora o javascript irá ver se eles são identico tanto em tipo quanto a grandeza. Sendo assim</p>
+                    <div id="background-dracula">
+
+                        <p>
+                            <span id="roxo">5</span>
+                            <span id="rosa">===</span>
+                            <span id="roxo">5</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">True</span>;
+                        </p>
+                
+                    </div> 
+                    <p>pois são do mesmo tipo e mesma grandeza.</p>
                 </footer>
-    
+                
             </header>
         </main>
     
@@ -116,141 +196,183 @@
     
         <footer id="rodapé">
             <header id="cabeçalho-rodape">
-                <h2>Operadore de atribuição simples</h2>
+                <h2>Operadores Lógicos</h2>
                 <main>
                     <div id="background-dracula">
+                        <p>
+                            <span id="verde">negação</span> 
+                            <span id="rosa"> ! </span>
+                        </p>
 
                         <p>
-                            <span id="rosa">var</span>
-                            <span>a</span> 
-                            <span id="rosa">=</span> 
-                            <span id="roxo">5</span>
-                            <span id="rosa">+</span> 
-                            <span id="roxo">3</span>;
-                        </p><!--Resultado = 8-->
+                            <span id="verde">conjunção</span>
+                            <span id="rosa"> && </span> 
+                        </p>
 
                         <p>
-                            <span id="rosa">var</span>
-                            <span>b</span> 
-                            <span id="rosa">=</span> 
-                            <span>a</span> 
-                            <span id="rosa">%</span> 
-                            <span id="roxo">5</span>;  
-                        </p><!--Resultado = 3-->
+                            <span id="verde">disjunção</span> 
+                            <span id="rosa"> || </span> 
+                        </p>
+
+                    </div>
+                    <p>Exemplo:</p>
+
+                    <div id="background-dracula" style="width: 560px;">
 
                         <p>
-                            <span id="rosa">var</span> 
-                            <span>c</span> 
-                            <span id="rosa">=</span> 
-                            <span id="roxo">5</span> 
-                            <span id="rosa">*</span> 
-                            <span>b</span> 
-                            <span id="rosa">**</span> 
-                            <span id="roxo">2</span>;
-                        </p><!--Resultado = 45-->
-                        
+                            <span>idade</span> 
+                            <span id="rosa">>=</span> 
+                            <span id="roxo">15</span>
+                            <span id="rosa">&&</span>
+                            <span>idade</span>
+                            <span id="rosa"><=</span>
+                            <span id="roxo">17</span>;
+                            <span style="color: #6272a4;">//a idade está entre 15 e 17?</span>
+                        </p>
+
                         <p>
-                            <span id="rosa">var</span> 
-                            <span>d</span> 
-                            <span id="rosa">=</span> 
-                            <span id="roxo">10</span> 
-                            <span id="rosa">-</span> 
-                            <span>a</span> 
-                            <span id="rosa">/</span> 
-                            <span id="roxo">2</span>;
-                        </p><!--Resultado = 6-->
-                        
+                            <span>estado</span> 
+                            <span id="rosa">==</span> 
+                            <span id="roxo">"RJ"</span>
+                            <span id="rosa">||</span>
+                            <span>estado</span>
+                            <span id="rosa">==</span>
+                            <span id="roxo">"SP"</span>;
+                            <span style="color: #6272a4;">//o estado é RJ ou SP?</span>
+                        </p>
+
                         <p>
-                            <span id="rosa">var</span> 
-                            <span>e</span> 
-                            <span id="rosa">=</span> 
-                            <span id="roxo">6</span> 
-                            <span id="rosa">*</span> 
-                            <span id="roxo">2</span> 
-                            <span id="rosa">/</span> 
-                            <span>d</span>;
-                        </p><!--Resultado = 2-->
+                            <span>salário</span> 
+                            <span id="rosa">></span> 
+                            <span id="roxo">1500</span>
+                            <span id="rosa">&&</span>
+                            <span>sexo</span>
+                            <span id="rosa">!m</span>
+                            <span id="roxo">"M"</span>;
+                            <span style="color: #6272a4;">//o salário é acima de 1500 e não é homem?</span>
+                        </p>
                         
-                        <p>
-                            <span id="rosa">var</span> 
-                            <span>f</span> 
-                            <span id="rosa">=</span> 
-                            <span>b</span> 
-                            <span id="rosa">%</span> 
-                            <span>e</span> 
-                            <span id="rosa">+</span> 
-                            <span id="roxo">4</span> 
-                            <span id="rosa">/</span> 
-                            <span>e</span>;
-                        </p><!--Resultado = 3-->
                     </div>     
                 </main>
-                <p><strong>Observação:</strong> O <strong>=</strong> tem um significado de recebe e não que é igual. Exemplo:</p>
-
-                <div id="background-dracula">
-
-                    <p>
-                        <span id="rosa">var</span> 
-                        <span>a</span> 
-                        <span id="rosa"><strong>recebe</strong></span> 
-                        <span id="roxo">5</span> 
-                        <span id="rosa">+</span> 
-                        <span id="roxo">3</span>;
-                    </p>
-                
-                </div>
-    
-            </header>
+            
+                <hr id="linha" style="margin-top: 15px; margin-bottom: 10px;">
     
             <main id="corpo-rodape">
-                <h2>Operadores de auto-atribuição</h2>
+                <h2>Operadores Ternário</h2>
                 <main>
     
                     <div id="background-dracula">
+                        <p>
+                            <span id="rosa"> ? </span>
+                            <span>True</span>
+                        </p>
 
                         <p>
-                            <span id="rosa">var</span> 
-                            <span>n</span> 
-                            <span id="rosa">=</span> 
-                            <span id="roxo">3</span>;
+                            <span id="rosa"> : </span> 
+                            <span>False</span>
                         </p>
-                    
+
                         <p>
-                            <span>n</span>
-                            <span id="rosa">=</span> 
-                            <span>n</span> 
-                            <span id="rosa">+</span> 
-                            <span id="roxo">4</span>;
+                            <span id="roxo">teste lógico</span>
+                            <span id="rosa">?</span>
+                            <span id="roxo">True</span>
+                            <span id="rosa">:</span>
+                            <span id="roxo">False</span>
                         </p>
-                    
                     </div>
 
-                    <p><strong>Observação:</strong> Aqui a variável n recebe 3, logo em seguida a variável n recebe ela mesma mais 4. Sendo assim ela deixa de ser 3 e agora vale 7</p>
-                    <br>
-                    <p><strong>Observação2:</strong> Também pode ser usada da seguinte forma:</p>
+                    <p>Exemplo:</p>
 
-                    <div id="background-dracula">
+                    <div id="background-dracula" style="width: 540px;">
                         
                         <p>
-                            <span id="rosa">var</span> 
-                            <span>n</span> 
-                            <span id="rosa">=</span> 
-                            <span id="roxo">3</span>;
+                            <span>média</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">5.5</span>; <br>
+                            <span>média</span>
+                            <span id="rosa">>=</span>
+                            <span id="roxo">7.0</span>
+                            <span id="rosa">?</span>
+                            <span id="roxo">"Aprovado"</span>
+                            <span id="rosa">:</span>
+                            <span id="roxo">"Reprovado"</span>;
                         </p>
                         
                         <p>
-                            <span>n</span> 
-                            <span id="rosa">+=</span> 
-                            <span id="roxo">4</span>;
+                            <span id="roxo">"Reprovado"</span>
                         </p>
                     </div>
     
-                    <p></p>
-    
+                    <p>Outro Exemplo:</p>
+                    <div id="background-dracula" style="width: 540px;">
+                        
+                        <p>
+                            <span>média</span>
+                            <span id="rosa">=</span>
+                            <span id="roxo">8.5</span>; <br>
+                            <span>média</span>
+                            <span id="rosa">>=</span>
+                            <span id="roxo">7.0</span>
+                            <span id="rosa">?</span>
+                            <span id="roxo">"Aprovado"</span>
+                            <span id="rosa">:</span>
+                            <span id="roxo">"Reprovado"</span>;
+                        </p>
+                        
+                        <p>
+                            <span id="roxo">"Aprovado"</span>
+                        </p>
+                    </div>
                 </main>
     
+                <hr id="linha" style="margin-top: 15px; margin-bottom: 15px;">
+
+                <footer>
+                    <h2>Ordem precedência</h2>
+                    
+                    <main>
+                        <p>1° Operações aritméticas:</p>
+                        <ol style="margin-left: 30px; margin-bottom: 10px;">
+                            <strong>
+                                <li ><span id="rosa">()</span></li>
+                                <li ><span id="rosa">**</span></li>
+                                <li >
+                                    <span id="rosa">*</span>
+                                    <span>,</span>
+                                    <span id="rosa">/</span>
+                                    <span>,</span>
+                                    <span id="rosa">%</span>
+                                </li>
+                                <li>
+                                    <span id="rosa">+</span>
+                                    <span>e</span>
+                                    <span id="rosa">-</span>
+                                </li>
+                            </strong>
+                        </ol>
+
+                        <p>2° Operações relacionais:</p>
+                        <ol style="margin-left: 30px; margin-bottom: 10px;">
+                            <strong>
+                                <li ><span id="rosa">> < >=</span></li>
+                            </strong>
+                        </ol>
+
+                        <p>3° Operações lógicas:</p>
+                        <ol style="margin-left: 30px;">
+                            <strong>
+                                <li ><span id="rosa">!</span></li>
+                                <li ><span id="rosa">&&</span></li>
+                                <li ><span id="rosa">||</span></li>
+                            </strong>
+                        </ol>
+
+                        <hr id="linha" style="margin-top: 30px;">
+                    </main>
+                </footer>
+
             </main>
-    
+            
     
         </footer>
 
