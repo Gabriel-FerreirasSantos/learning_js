@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Operadores</title>
+</head>
+<body>
+    <header id="estrutura">
+        <hr id="linha">
+        <header id="cabeçalho">
+            <header id="titulo-cabeçalho">
+                <h1>Operadores:</h1>
+            </header>
+    
+            <main id="corpo-cabeçalho">
+                <div id="background-dracula">
+                    <p style="color: #50fa7b;">Aritméticos;</p>
+                    <p style="color: #50fa7b;">Atribuição;</p>
+                    <p style="color: #50fa7b;">Relacionais;</p>
+                    <p style="color: #50fa7b;">Lógicos;</p>
+                    <p style="color: #50fa7b;">Ternário;</p>
+                </div>
+            </main>
+        </header>
+    
+        <hr id="linha">
+    
+        <main id="corpo">
+            <header id="titulo-corpo">
+                <h2>Operadores Aritméticos</h2>
+    
+                <main id="corpo-do-corpo">
+                    <div id="background-dracula">
+                        <p>
+                            <span id="verde">Adição</span> 
+                            <span id="rosa">= </span>
+                            <span id="rosa"><strong>+</strong></span>
+                        </p>
+
+                        <p>
+                            <span id="verde">Subtração </span>
+                            <span id="rosa">=</span> 
+                            <span id="rosa"><strong>-</strong></span>
+                        </p>
+
+                        <p>
+                            <span id="verde">Multiplicação</span> 
+                            <span id="rosa">=</span> 
+                            <span id="rosa"><strong>*</strong></span>
+                        </p>
+
+                        <p>
+                            <span id="verde">Divisão</span> 
+                            <span id="rosa">=</span> 
+                            <span id="rosa"><strong>/</strong></span>
+                        </p>
+
+                        <p>
+                            <span id="verde">Resto da divisão inteira</span> 
+                            <span id="rosa">=</span> 
+                            <span id="rosa"><strong>%</strong></span>
+                        </p>
+
+                        <p>
+                            <span id="verde">Potenciação</span> 
+                            <span id="rosa">=</span> 
+                            <span id="rosa"><strong>**</strong></span>
+                        </p> 
+
+                    </div>
+                </main>
+    
+                <footer id="rodape-corpo">
+                    <h2>Precedência de operadores</h2>
+    
+                    <main>
+                        
+                            <div id="background-dracula">
+
+                                <p>
+                                    <span id="roxo">1°</span>
+                                    <span id="rosa"><strong>()</strong></span>
+                                </p>
+                                
+                                <p>
+                                    <span id="roxo">2°</span>
+                                    <span id="rosa"><strong>**</strong></span>
+                                </p>
+                                
+                                <p>
+                                    <span id="roxo">3°</span>
+                                    <span id="rosa"><strong>*</strong></span>,
+                                    <span id="rosa"><strong>/</strong></span>,
+                                    <span id="rosa"><strong>%</strong></span>
+                                    
+                                </p>
+                                
+                                <p>
+                                    <span id="roxo">4°</span>
+                                    <span id="rosa"><strong>+ <span style="color: white;">e</span> -</strong></span>
+                                </p>
+
+                            </div>
+                        
+                    </main>
+    
+                </footer>
+    
+            </header>
+        </main>
+    
+        <hr id="linha">
+    
+        <footer id="rodapé">
+            <header id="cabeçalho-rodape">
+                <h2>Operadore de atribuição simples</h2>
+                <main>
+                    <div id="background-dracula">
+
+                        <p>
+                            <span id="rosa">var</span>
+                            <span>a</span> 
+                            <span id="rosa">=</span> 
+                            <span id="roxo">5</span>
+                            <span id="rosa">+</span> 
+                            <span id="roxo">3</span>;
+                        </p><!--Resultado = 8-->
+
+                        <p>
+                            <span id="rosa">var</span>
+                            <span>b</span> 
+                            <span id="rosa">=</span> 
+                            <span>a</span> 
+                            <span id="rosa">%</span> 
+                            <span id="roxo">5</span>;  
+                        </p><!--Resultado = 3-->
+
+                        <p>
+                            <span id="rosa">var</span> 
+                            <span>c</span> 
+                            <span id="rosa">=</span> 
+                            <span id="roxo">5</span> 
+                            <span id="rosa">*</span> 
+                            <span>b</span> 
+                            <span id="rosa">**</span> 
+                            <span id="roxo">2</span>;
+                        </p><!--Resultado = 45-->
+                        
+                        <p>
+                            <span id="rosa">var</span> 
+                            <span>d</span> 
+                            <span id="rosa">=</span> 
+                            <span id="roxo">10</span> 
+                            <span id="rosa">-</span> 
+                            <span>a</span> 
+                            <span id="rosa">/</span> 
+                            <span id="roxo">2</span>;
+                        </p><!--Resultado = 6-->
+                        
+                        <p>
+                            <span id="rosa">var</span> 
+                            <span>e</span> 
+                            <span id="rosa">=</span> 
+                            <span id="roxo">6</span> 
+                            <span id="rosa">*</span> 
+                            <span id="roxo">2</span> 
+                            <span id="rosa">/</span> 
+                            <span>d</span>;
+                        </p><!--Resultado = 2-->
+                        
+                        <p>
+                            <span id="rosa">var</span> 
+                            <span>f</span> 
+                            <span id="rosa">=</span> 
+                            <span>b</span> 
+                            <span id="rosa">%</span> 
+                            <span>e</span> 
+                            <span id="rosa">+</span> 
+                            <span id="roxo">4</span> 
+                            <span id="rosa">/</span> 
+                            <span>e</span>;
+                        </p><!--Resultado = 3-->
+                    </div>     
+                </main>
+                <p><strong>Observação:</strong> O <strong>=</strong> tem um significado de recebe e não que é igual. Exemplo:</p>
+
+                <div id="background-dracula">
+
+                    <p>
+                        <span id="rosa">var</span> 
+                        <span>a</span> 
+                        <span id="rosa"><strong>recebe</strong></span> 
+                        <span id="roxo">5</span> 
+                        <span id="rosa">+</span> 
+                        <span id="roxo">3</span>;
+                    </p>
+                
+                </div>
+    
+            </header>
+    
+            <main id="corpo-rodape">
+                <h2>Operadores de auto-atribuição</h2>
+                <main>
+    
+                    <div id="background-dracula">
+
+                        <p>
+                            <span id="rosa">var</span> 
+                            <span>n</span> 
+                            <span id="rosa">=</span> 
+                            <span id="roxo">3</span>;
+                        </p>
+                    
+                        <p>
+                            <span>n</span>
+                            <span id="rosa">=</span> 
+                            <span>n</span> 
+                            <span id="rosa">+</span> 
+                            <span id="roxo">4</span>;
+                        </p>
+                    
+                    </div>
+
+                    <p><strong>Observação:</strong> Aqui a variável n recebe 3, logo em seguida a variável n recebe ela mesma mais 4. Sendo assim ela deixa de ser 3 e agora vale 7</p>
+                    <br>
+                    <p><strong>Observação2:</strong> Também pode ser usada da seguinte forma:</p>
+
+                    <div id="background-dracula">
+                        
+                        <p>
+                            <span id="rosa">var</span> 
+                            <span>n</span> 
+                            <span id="rosa">=</span> 
+                            <span id="roxo">3</span>;
+                        </p>
+                        
+                        <p>
+                            <span>n</span> 
+                            <span id="rosa">+=</span> 
+                            <span id="roxo">4</span>;
+                        </p>
+                    </div>
+    
+                    <p></p>
+    
+                </main>
+    
+            </main>
+    
+    
+        </footer>
+
+    </header>
+    <hr id="linha">
+</body>
+</html>
