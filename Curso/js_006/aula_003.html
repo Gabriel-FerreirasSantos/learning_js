@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tratamento de dados</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            background-color: aliceblue;
-            width: 400px;
-            margin: auto;
-            border-radius: 10px;
-            padding: 10px;
-        }
-
-    </style>
 </head>
 <body>
+    <nav id="painel">
+        <p><a href="" style="color: black;">Site portfólio</a></p>
+    </nav>
+    <hr id="linha">
+    <header id="estrutura">
 
-    <header>
-        <h2>Formatando Strings</h2>
-        
+        <header id="cabeçalho">
+            <h2>Formatando Strings</h2>
+            <main id="corpocabeçalho">
+                <h2></h2>
+            </main>
+        </header>
 
     </header>
-    <script>
+
+    <!--<script>
         var nome = window.prompt("Digite seu nome :");
         var salario = window.prompt("Digite o seu salario :");
         document.write(`${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`);
@@ -49,7 +45,7 @@
         var number2 = Number.parseFloat(window.prompt("Digite outro número :"));
         soma2 = number1 + number2;
         window.alert(`${number1.toFixed(2).replace('.', ',')} + ${number2.toFixed(2).replace('.', ',')} = ${soma2.toFixed(2).replace('.', ',')}`);
-    </script>
+    </script>-->
 
 </body>
 </html>
