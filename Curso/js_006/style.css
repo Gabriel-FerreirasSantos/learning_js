@@ -1,7 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
 }
+
 body{
     background-color: #44475a;
 }
@@ -27,12 +28,6 @@ p{
     color: white;
     font-family: arial;
 }
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-family: verdana;
-}
 #linha{
     border-color: dimgray;
     border-radius: 10px;
@@ -51,12 +46,39 @@ a{
 }
 
 
+#estrutura{
+    background: #3537498c;
+    margin: auto;
+    width: 600px;
+}
+#cabeçalho > p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+#corpocabeçalho{
+    margin-left: 20px;
+}
+#rodapecabeçalho{
+    margin-left: 20px;
+}
+#corporodape > p{
+    color: #50fa7b;
+}
 
 
 
 
-
-
+#background-ir2{
+    margin-top: 10px;
+    display: flex;
+    background-color: #282a36;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+}
 #part1{
     color: white;
     width: 15px;
@@ -88,6 +110,14 @@ a{
 }#part2:hover{
     background-color: rgb(0, 0, 0);
 
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
 }
 
 
